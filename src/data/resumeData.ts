@@ -4,7 +4,7 @@ export const resumeData: ResumeData = {
   name: "Bharat Agrawal",
   title: "Software Engineer & Machine Learning Researcher",
   headline: "Ex-Google SWE Intern | CS @ IIT Mandi & TU Munich | Deep Learning & Systems | 1100+ CP Solved",
-  bio: "Computer Science & Engineering student at IIT Mandi and Exchange Scholar at Technical University of Munich (TUM). Ex-Software Engineering Intern at Google (May 18 – Aug 7, 2026). Researching causal reasoning in LLMs, document intelligence, GPU profiling pipelines, and low-latency systems.",
+  bio: "Computer Science student at IIT Mandi and exchange student at Technical University of Munich (TUM). Ex-Software Engineering Intern at Google (May 18 – Aug 7, 2026). Researching causal reasoning in LLMs, document intelligence, GPU profiling pipelines, and low-latency systems.",
   location: "Mandi, India",
   status: "Ex-Software Engineering Intern @ Google (May 18 – Aug 7, 2026)",
   contact: {
@@ -88,11 +88,11 @@ export const resumeData: ResumeData = {
       ],
       tags: ["Perfetto", "Vulkan", "ANGLE", "GPU Drivers", "C++", "Linux Kernel", "Android", "Performance Profiling"],
       bullets: [
-        "Streamlined performance analysis for Linux and Android by architecting a unified profiling pipeline that synchronizes 490+ GPU hardware counters and CPU traces for GUI visualization, reducing bottleneck identification time by 40%.",
-        "Identified several GPU performance bottlenecks by developing custom scripts to merge kernel-space events with a newly implemented user-space API logging mechanism.",
-        "Optimized GPU Driver by tweaking heap memory allocation, reducing OOM stall cycles by 60%.",
-        "Enhanced the GPU pipeline by replacing synchronous cache flushes with deferred background cache invalidations.",
-        "Patched the ANGLE trace test to support headless Vulkan trace replays on Debian-based platforms."
+        "Built a profiling pipeline synchronizing 490+ GPU hardware counters and CPU traces in Perfetto for GUI visualization, cutting bottleneck identification time by 40%.",
+        "Identified GPU performance bottlenecks by creating scripts to merge kernel-space events with user-space API logs.",
+        "Optimized GPU driver heap memory allocation, reducing out-of-memory stall cycles by 60%.",
+        "Replaced synchronous cache flushes with deferred background invalidations in the GPU pipeline.",
+        "Patched ANGLE trace tests to enable headless Vulkan trace replays on Debian."
       ]
     }
   ],
@@ -169,16 +169,16 @@ export const resumeData: ResumeData = {
         { label: "Train Efficiency", value: "~0.75% Params" }
       ],
       bullets: [
-        "Built a robust dual-stage filtering pipeline pairing BM25 lexical search with FAISS dense vector re-ranking to extract high-confidence causal evidence from extensive document collections.",
-        "Fine-tuned Llama 3.2 3B and 8B models using parameter-efficient 4-bit quantization with Unsloth, training merely ~0.75% of model parameters.",
-        "Attained exceptional performance on Llama 3.2 8B with an accuracy of 0.80, precision of 0.90, and F1 score of 0.88, significantly outstripping zero-shot and few-shot prompting baselines."
+        "Built a two-stage retrieval pipeline pairing BM25 lexical search with FAISS dense vector re-ranking to extract causal evidence from documents.",
+        "Fine-tuned Llama 3.2 (3B/8B) with 4-bit LoRA using Unsloth, training ~0.75% of model parameters.",
+        "Achieved 0.80 accuracy, 0.90 precision, and 0.88 F1 on Llama 3.2 8B, outperforming zero-shot and few-shot baselines."
       ],
       featured: true
     },
     {
       id: "deep-learning-local-feature-matching",
       title: "Deep Learning Models in Local Feature Matching",
-      tagline: "Comprehensive survey, 3D taxonomic classification, and benchmark evaluation spanning GNN and Transformer matchers.",
+      tagline: "Survey, 3D taxonomy, and benchmark evaluation of GNN and Transformer local feature matchers.",
       category: "research",
       isResearchPaper: true,
       paperUrl: "https://github.com/bharatagrawal1322",
@@ -191,16 +191,16 @@ export const resumeData: ResumeData = {
         { label: "Metrics", value: "Pose Error & AUC" }
       ],
       bullets: [
-        "Conducted an in-depth survey of 10 primary papers and 30+ supporting works spanning Graph Neural Network (GNN) sparse matchers and transformer-based dense matching architectures.",
-        "Proposed a novel 3-dimensional taxonomy classifying methods by feature modality, architectural strategy, and learning paradigm.",
-        "Performed empirical evaluations across two prominent spatial benchmarks (MegaDepth and ScanNet) measuring relative pose error and Area Under the Curve (AUC) metrics."
+        "Surveyed 10 primary papers and 30+ supporting works covering GNN sparse matchers and transformer-based dense matchers.",
+        "Defined a 3D taxonomy classifying methods by feature modality, architecture, and learning paradigm.",
+        "Evaluated models on MegaDepth and ScanNet benchmarks for relative pose error and AUC."
       ],
       featured: true
     },
     {
       id: "tabularis",
       title: "Tabularis — Table Understanding & Query System",
-      tagline: "End-to-end multimodal document AI pipeline converting unstructured tables to structured data with LLM queries.",
+      tagline: "Multimodal document AI pipeline extracting structured table data from PDFs and images with LLM query support.",
       category: "ml",
       award: "2nd Place @ HCLTech Hackathon (48h)",
       tags: ["Python", "Pix2Struct (240M)", "Qwen 3.0 LLM", "Next.js", "Tailwind CSS", "Flask", "Transformers"],
@@ -212,17 +212,17 @@ export const resumeData: ResumeData = {
         { label: "Hackathon Result", value: "2nd Place" }
       ],
       bullets: [
-        "Architected an automated multi-stage document processing pipeline: Preprocessor → Pix2Struct (240M params) → Qwen 3.0 for table extraction from scanned PDFs and images to clean HTML/CSV.",
-        "Benchmarked on 1000+ real-world documents, attaining >95% accuracy in cell demarcation, header association, and data alignment.",
-        "Integrated Qwen 3.0 with conversational memory to support natural-language inquiries across 50+ diverse query types with 90% resolution rate.",
-        "Secured 2nd prize at the competitive HCLTech 48-Hour Hackathon."
+        "Built a multi-stage document processing pipeline (Preprocessor → Pix2Struct 240M → Qwen 3.0) extracting tables from scanned PDFs and images to HTML/CSV.",
+        "Tested on 1,000+ real-world documents, achieving >95% accuracy in cell demarcation, header association, and data alignment.",
+        "Integrated Qwen 3.0 with conversational memory for natural-language queries across 50+ query types with 90% resolution rate.",
+        "Won 2nd place at the HCLTech 48-Hour Hackathon."
       ],
       featured: true
     },
     {
       id: "automatic-modulation-recognition",
       title: "Automatic Modulation Recognition",
-      tagline: "Ultra-compact Hybrid CNN + LSTM + GRU deep neural network for RF signal modulation classification.",
+      tagline: "Compact CNN + LSTM + GRU deep neural network for RF signal modulation classification.",
       category: "ml",
       guide: "Dr. Robin Khosla",
       affiliation: "SCEE, IIT Mandi",
@@ -235,9 +235,9 @@ export const resumeData: ResumeData = {
         { label: "Signal Types", value: "11 Modulations" }
       ],
       bullets: [
-        "Implemented the VTCNN2 baseline on the Radio ML 2016.10a dataset, achieving 72% accuracy across 8 digital and 3 analog signal types at SNR [0, 18].",
-        "Engineered a novel hybrid DNN architecture fusing CNN spatial feature extractors with recurrent LSTM and GRU temporal layers, lifting overall classification accuracy to 92%.",
-        "Pruned and downsized the architecture to just 106K parameters, reducing inference latency by 40% with a responsive 50ms execution window."
+        "Trained VTCNN2 baseline on the RadioML 2016.10a dataset, achieving 72% accuracy across 11 modulation types at SNR [0, 18].",
+        "Designed a hybrid CNN-LSTM-GRU network, increasing classification accuracy to 92%.",
+        "Optimized architecture to 106K parameters, reducing inference latency to 50ms (40% faster)."
       ],
       featured: true
     },
@@ -255,17 +255,17 @@ export const resumeData: ResumeData = {
         { label: "Training Scale", value: "60k+ SA-1B" }
       ],
       bullets: [
-        "Enhanced Meta's VideoSEAL architecture to embed high-entropy float watermarks instead of standard binary markers into visual media.",
-        "Trained on 60,000+ images from Meta's Segment Anything (SA-1B) dataset on high-end NVIDIA RTX A5000 GPUs using freeze-unfreeze scheduling.",
-        "Achieved high fidelity with SSIM > 0.97 and Cosine Similarities between 0.85 – 0.91 while preserving visual perception.",
-        "Formulated a diffusion-assisted variant achieving 97% bit extraction accuracy for 64-bit embedded payloads under distortion."
+        "Extended Meta VideoSEAL to embed high-entropy float watermarks into visual media.",
+        "Trained on 60,000+ SA-1B dataset images on NVIDIA RTX A5000 GPUs using staged layer freezing.",
+        "Maintained image quality with SSIM > 0.97 and cosine similarities of 0.85–0.91.",
+        "Developed a diffusion-assisted variant achieving 97% bit extraction accuracy on 64-bit payloads under distortion."
       ],
       featured: false
     },
     {
       id: "simutradex",
       title: "SimuTradex — Low-Latency Paper Trading Engine",
-      tagline: "Realistic simulated trading platform with real-time NSE market feeds, portfolio management, and sub-150ms execution.",
+      tagline: "Paper trading platform with real-time NSE market feeds, portfolio management, and sub-150ms execution.",
       category: "fullstack",
       award: "1st Place @ KrackHack'24 (100+ teams)",
       tags: ["Flask", "Python", "JavaScript", "Jinja2", "BeautifulSoup", "Google Finance API", "Tailwind CSS"],
@@ -277,16 +277,16 @@ export const resumeData: ResumeData = {
         { label: "Competitors", value: "100+ Freshmen" }
       ],
       bullets: [
-        "Designed a full-featured paper trading simulation platform supporting 140+ National Stock Exchange (NSE) equities with live P&L tracking.",
-        "Built responsive scraper pipelines with BeautifulSoup and Google Finance feeds to update quotes with <150ms latency.",
-        "Awarded 1st place among 100+ participating freshmen teams in the intra-college GDG KrackHack competition."
+        "Built a paper trading platform supporting 140+ National Stock Exchange (NSE) equities with real-time P&L tracking.",
+        "Created scraper pipelines with BeautifulSoup and Google Finance feeds to update quotes with <150ms latency.",
+        "Won 1st place among 100+ teams at the GDG KrackHack'24 hackathon."
       ],
       featured: false
     },
     {
       id: "data-harvesting-pipeline",
       title: "Data Harvesting & Structuring Pipeline",
-      tagline: "Scalable autonomous web crawler and dual-stage OCR engine with cryptographic deduplication.",
+      tagline: "Web crawler and dual-stage OCR pipeline with cryptographic deduplication.",
       category: "data-systems",
       tags: ["Python", "Tesseract OCR", "BeautifulSoup", "PyPDF2", "pdf2image", "SHA-256", "Requests"],
       githubUrl: "https://github.com/bharatagrawal1322",
@@ -296,9 +296,9 @@ export const resumeData: ResumeData = {
         { label: "Extraction Stages", value: "Dual OCR Engine" }
       ],
       bullets: [
-        "Engineered an autonomous, fault-tolerant web crawler to systematically gather thousands of technical documents across heterogeneous web endpoints.",
-        "Constructed a dual-stage text extraction engine pairing PyPDF2 (native text extraction) with Tesseract OCR (rasterized scans) for comprehensive recovery.",
-        "Integrated a SHA-256 cryptographic checksum cache to prevent duplicate processing of identical files, cutting pipeline compute by over 60%."
+        "Built a fault-tolerant web crawler to collect thousands of technical documents across varied web sources.",
+        "Constructed a dual-stage text extraction engine pairing PyPDF2 (native text extraction) with Tesseract OCR (scans).",
+        "Integrated SHA-256 caching to prevent duplicate processing of identical files, cutting compute by 60%."
       ],
       featured: false
     }
@@ -307,35 +307,35 @@ export const resumeData: ResumeData = {
     {
       id: "krackhack",
       title: "1st Place — KrackHack'24",
-      subtitle: "Organized by Google Developer Groups (GDG) IIT Mandi among 100+ freshmen participants.",
+      subtitle: "Organized by Google Developer Groups (GDG) IIT Mandi among 100+ participants.",
       badge: "Winner",
       type: "hackathon"
     },
     {
       id: "csaw-ctf",
       title: "Ranked 10th Nationwide — CSAW CTF 2025",
-      subtitle: "Top 10 finish across India competing in reverse engineering, binary exploitation, and crypto challenges.",
+      subtitle: "Top 10 finish across India competing in reverse engineering, binary exploitation, and cryptography.",
       badge: "Top 10 India",
       type: "ctf"
     },
     {
       id: "scythe-ctf",
       title: "4th Rank — Scythe CTF & 6th Rank — Chronos CTF",
-      subtitle: "High-ranking finishes in competitive cybersecurity & offensive security capture-the-flag competitions.",
+      subtitle: "High-ranking finishes in cybersecurity and capture-the-flag competitions.",
       badge: "4th & 6th Rank",
       type: "ctf"
     },
     {
       id: "amazon-ml",
       title: "Qualified — Amazon ML Challenge 2025",
-      subtitle: "Successfully qualified through competitive machine learning screening rounds.",
+      subtitle: "Qualified through competitive machine learning screening rounds.",
       badge: "Qualified",
       type: "ml"
     },
     {
       id: "cp-solved",
       title: "1,100+ Coding Problems Solved",
-      subtitle: "Consistent problem solver across Codeforces, LeetCode, and GeeksforGeeks with strong algorithmic grounding.",
+      subtitle: "Algorithmic problem solving across Codeforces, LeetCode, and GeeksforGeeks.",
       badge: "1100+ Solved",
       type: "cp"
     }
@@ -344,13 +344,13 @@ export const resumeData: ResumeData = {
     {
       role: "Mentor & Core Member",
       organization: "Kamand Prompt — Programming Club of IIT Mandi",
-      description: "Mentoring junior students in algorithmic problem solving, hosting competitive programming rounds, and organizing technical workshops.",
+      description: "Mentoring students in algorithmic problem solving, hosting competitive programming rounds, and organizing workshops.",
       period: "2023 – Present"
     },
     {
       role: "Mentor & Core Member",
       organization: "ACM Student Chapter — IIT Mandi",
-      description: "Spearheading tech seminars, hackathons, and collaborative open-source sessions within the student community.",
+      description: "Organizing technical seminars, hackathons, and open-source sessions within the student community.",
       period: "2023 – Present"
     }
   ],

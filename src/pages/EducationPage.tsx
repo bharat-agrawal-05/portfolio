@@ -35,7 +35,7 @@ export const EducationPage: React.FC = () => {
             Advanced Informatics & ML Systems
           </h3>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-            Completed intensive graduate-level modules at TUM covering Graph Neural Networks, modern C++ performance idioms, natural language understanding, and distributed computing architectures with a top-tier 9.44 GPA (1.7 German Grade).
+            Completed graduate modules at TUM in Graph Neural Networks, modern C++, NLP, and distributed systems with a 9.44 GPA (1.7 German Grade).
           </p>
         </div>
 
@@ -49,7 +49,7 @@ export const EducationPage: React.FC = () => {
               B.Tech in Computer Science & Engineering
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-              Consistently high 9.04 CGPA with strong foundations in Data Structures, Algorithms, Computer Networks, Operating Systems, Machine Learning, and Hardware Architecture.
+              Maintained a 9.04 CGPA with coursework in Data Structures, Algorithms, Operating Systems, Networks, Machine Learning, and Architecture.
             </p>
           </div>
 

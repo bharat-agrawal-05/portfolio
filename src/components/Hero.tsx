@@ -4,7 +4,6 @@ import {
   MapPin,
   Copy,
   Check,
-  FileText,
   ArrowRight,
   Award,
   ExternalLink,
@@ -84,7 +83,7 @@ export const Hero: React.FC = () => {
             >
               IIT Mandi
             </Link>{' '}
-            & exchange scholar at{' '}
+            & exchange student at{' '}
             <Link
               to="/education"
               className="text-slate-900 dark:text-white font-semibold underline decoration-indigo-500/50 decoration-2 underline-offset-4 hover:decoration-indigo-500 transition-colors"
@@ -95,7 +94,7 @@ export const Hero: React.FC = () => {
           </p>
 
           <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-3xl font-normal">
-            Specializing in deep learning research, causal reasoning in LLMs, GPU profiling pipelines, and low-latency systems. Consistent competitive programmer with 1,100+ solved problems and top-tier CTF rankings.
+            Specializing in deep learning research, causal reasoning in LLMs, GPU profiling, and low-latency systems.
           </p>
         </div>
 
@@ -176,17 +175,6 @@ export const Hero: React.FC = () => {
               </>
             )}
           </button>
-
-          {/* Download Resume Button */}
-          <a
-            href={resumeData.contact.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl hover:border-slate-300 dark:hover:border-slate-700 transition-all"
-          >
-            <FileText className="w-4 h-4 text-sky-500" />
-            <span>Resume PDF</span>
-          </a>
         </div>
 
         {/* Social Links Row */}

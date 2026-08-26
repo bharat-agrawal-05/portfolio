@@ -26,15 +26,12 @@ export const HomePage: React.FC = () => {
 
       {/* Exploration Hub Section */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-14 border-t border-slate-200/80 dark:border-slate-800/80">
-        <div className="flex items-center gap-2 mb-2">
+        <div className="flex items-center gap-2 mb-6">
           <Sparkles className="w-5 h-5 text-sky-500" />
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 dark:text-white">
             Explore Portfolio
           </h2>
         </div>
-        <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400 mb-8 font-mono">
-          // Dedicated sections for experience, research, education, stack, and awards
-        </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {/* Experience Card */}
@@ -133,14 +130,14 @@ export const HomePage: React.FC = () => {
                 </span>
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
-                Technical Arsenal
+                Technical Skills
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-2 leading-relaxed">
                 C++, Python, PyTorch, LoRA/Unsloth, Perfetto, Vulkan, React, FastAPI, Linux Kernel & Drivers.
               </p>
             </div>
             <div className="mt-5 pt-3.5 border-t border-slate-100 dark:border-slate-800/80 flex items-center text-xs sm:text-sm font-mono text-amber-600 dark:text-amber-400 font-semibold gap-1.5 group-hover:translate-x-1 transition-transform">
-              <span>View Full Arsenal</span>
+              <span>View Skills</span>
               <ArrowRight className="w-4 h-4" />
             </div>
           </Link>

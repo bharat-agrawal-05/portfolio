@@ -24,7 +24,7 @@ export const Skills: React.FC = () => {
         <div className="flex items-center gap-2.5 mb-2">
           <Cpu className="w-6 h-6 text-sky-500" />
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-slate-900 dark:text-white">
-            Technical Arsenal
+            Technical Skills
           </h2>
         </div>
         <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400 mb-8 font-mono">

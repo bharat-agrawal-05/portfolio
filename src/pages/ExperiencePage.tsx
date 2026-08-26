@@ -36,7 +36,7 @@ export const ExperiencePage: React.FC = () => {
             Silicon Product Software & GPU Performance
           </h3>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-            Engineered low-level profiling infrastructure connecting Linux kernel events, Vulkan graphics drivers, and Perfetto trace pipelines to identify hardware bottlenecks and reduce out-of-memory stalls across Linux and Android runtime environments.
+            Built profiling infrastructure connecting Linux kernel events, Vulkan drivers, and Perfetto trace pipelines to identify hardware bottlenecks and reduce out-of-memory stalls across Linux and Android.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export const ExperiencePage: React.FC = () => {
               Explore Research & Systems Projects
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-              Check out associated deep learning research in causal reasoning, local feature matching taxonomy, and custom trading engines.
+              Explore research in causal LLM reasoning, local feature matching benchmarks, and trading systems.
             </p>
           </div>
 

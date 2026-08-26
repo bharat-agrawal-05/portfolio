@@ -97,7 +97,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
     },
     {
       id: 'nav-skills',
-      title: 'Go to Technical Arsenal & Skills',
+      title: 'Go to Technical Skills',
       category: 'Pages',
       icon: <Cpu className="w-4 h-4 text-amber-500" />,
       perform: () => goToPage('/skills'),

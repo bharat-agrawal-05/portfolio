@@ -17,7 +17,7 @@ export const SkillsPage: React.FC = () => {
         </Link>
 
         <span className="text-xs font-mono text-slate-400 dark:text-slate-500">
-          Page // Technical Arsenal
+          Page // Technical Skills
         </span>
       </div>
 
