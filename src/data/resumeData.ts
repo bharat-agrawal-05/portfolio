@@ -10,7 +10,7 @@ export const resumeData: ResumeData = {
   contact: {
     email: "bharat.agrawal1322@gmail.com",
     phone: "+91 9368914189",
-    resumeUrl: "./Bharat_Agrawal_Resume.pdf",
+    resumeUrl: "./main_resume.pdf",
   },
   socials: [
     {
